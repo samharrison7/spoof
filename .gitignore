@@ -1,0 +1,64 @@
+# Custom makefiles
+makefile
+Makefile
+
+# Compilation files
+*.stackdump
+
+# Compilation directories and logs/cache
+bin/
+build/
+release/
+debug/
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+
+# Debugging/profiling
+massif*
+gmon.out
+gprof
+
+# IDEs
+*.cbp
+*.depend
+*.layout
+*.sublime-project
+*.sublime-workspace
+.vs/
+.vscode/
+.project
+Debug/
+Release/
+*.sln
+*.u2d
+*.vfproj*
+fort*
+*.fdz
+*.dmp
+
