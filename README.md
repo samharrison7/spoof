@@ -10,6 +10,23 @@ Currently implemented:
 - Matrix by vector multiplication for CSR and diagonal matrices: `out_matrix = matrix%multiply(vector)`.
 - Only double precision for the moment.
 
+## How to use
+
+### `fpm` - Fortran Package Manager
+
+SPOOF can be built using the Fortran Package Manager ([fpm](https://github.com/fortran-lang/fpm)). To use in your fpm compatible project, simply include in your `fpm.toml` file as a dependency:
+
+```toml
+[dependencies]
+spoof = { git = "https://github.com/samharrison7/spoof" }
+```
+
+Or you can clone the repo and build (`fpm build`) or install locally (`fpm install`) the library yourself using fpm.
+
+### Grab the files
+
+SPOOF is only a few files - just grab everything in `src/` and include in your own build process.
+
 ```fortran
 program main
     use Spoof

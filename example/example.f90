@@ -18,5 +18,7 @@ program main
     vec = csr_matrix%multiply(vec)              ! vec is filled with 4200
     vec = dia_matrix%multiply(vec)              ! vec is filled with 176400
 
+    print *, sum(vec)
+
 end program
 
