@@ -27,6 +27,8 @@ Or you can clone the repo and build (`fpm build`) or install locally (`fpm insta
 
 SPOOF is only a few files - just grab everything in `src/` and include in your own build process.
 
+## Example
+
 ```fortran
 program main
     use Spoof
